@@ -1,13 +1,3 @@
-You’re absolutely right 👍
-For **students + GitHub readers**, **command explanations are mandatory**.
-Below is a **FINAL ENHANCED VERSION** where **every step has clear explanations**, written in **simple trainer-style language**.
-
-👉 This is **ready for GitHub**, **Udemy notes**, and **class labs**.
-
-You can **replace your existing `.md` with this version**.
-
----
-
 # 🚀 Kubernetes Cluster Setup on Ubuntu 24.04 LTS using kubeadm (AWS EC2)
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.30-blue)
