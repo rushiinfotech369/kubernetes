@@ -311,7 +311,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 Verify:
 
 ```bash
-sudo kubectl get nodes
+kubectl get nodes
 ```
 
 ---
@@ -319,7 +319,7 @@ sudo kubectl get nodes
 ## 🔹 Step 9: Install Pod Network (Calico)
 
 ```bash
-sudo kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
+kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```
 
 ### Explanation
