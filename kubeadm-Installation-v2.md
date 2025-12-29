@@ -179,9 +179,23 @@ sudo sysctl --system
 
 ---
 
-## 🔹 Step 5: Install Container Runtime (containerd)
+## 🔹 Step 5: Docker and Install Container Runtime (containerd)
 
 ⚠️ **IMPORTANT FIX for Ubuntu 24.04**
+
+### Install docker from official website
+To install the latest stable versions of Docker CLI, Docker Engine, and their
+dependencies:
+
+### 5a). download the script
+$ curl -fsSL https://get.docker.com -o install-docker.sh
+
+### 5b). run the script either as root, or using sudo to perform the installation.
+$ sudo sh install-docker.sh
+
+### 5c) Verify docker version
+$ docker --version
+
 
 ### Install containerd
 
