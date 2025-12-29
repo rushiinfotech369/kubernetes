@@ -334,7 +334,7 @@ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 Verify:
 
 ```bash
-sudo kubectl get pods -n kube-system
+kubectl get pods -n kube-system
 ```
 
 ---
